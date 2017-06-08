@@ -6,7 +6,7 @@ import logging
 log = logging.getLogger('Savoir')
 
 
-class Savoir():
+class Savoir(object):
     __id_count = 0
 
     def __init__(self,
